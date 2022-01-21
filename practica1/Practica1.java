@@ -3,6 +3,7 @@ package practica1;
 import java.time.LocalDate;
 import java.util.Random;
 
+// Archivo editado para probar git
 public class Practica1 {
 
     public static Random rand = new Random();
@@ -27,8 +28,8 @@ public class Practica1 {
         System.out.println(  "<-------------------------->");
         
         
-        // Generacion de las contraseñas e impresion en pantalla
-        System.out.println("Contraseñas: ");
+        // Generacion de las contraseï¿½as e impresion en pantalla
+        System.out.println("Contraseï¿½as: ");
         
         String contraDados = Contras.contraDados();
         System.out.println(contraDados + " -> " + Contras.seguridad(contraDados));
